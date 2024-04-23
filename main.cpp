@@ -1,8 +1,10 @@
 #include <iostream>
 
+#include "array.h"
+
 int main() {
 
-    printf("Dzialania na tablicy");
+int array[SIZE]= {1, 5, 7, 8, 9,235, 522 ,34 ,35};
 
 
 }
