@@ -118,7 +118,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "cmake-build-debug/array.h",
+			"path" : "array.h",
 			"sourceGroupIndex" : 1
 		}
 	],
