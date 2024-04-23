@@ -16,7 +16,6 @@ void displayMenu(){
     printf("10.EXIT\n");
 
 }
-
 int main() {
 
 int array[SIZE]= {1, 5, 7, 8, 9,235, 522 ,34 ,35};
