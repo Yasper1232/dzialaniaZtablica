@@ -7,7 +7,7 @@
 
 #define SIZE 10
 
-void dataenter();
-
+void dataenter(int *array);
+void showdata(int *array);
 
 #endif //UNTITLED2_ARRAY_H

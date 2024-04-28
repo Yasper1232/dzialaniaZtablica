@@ -5,15 +5,23 @@
 #include <cstdio>
 
 
-void dataenter(){
+void dataenter(int *array){
 
     for(int i=0;i<SIZE;i++){
 
-            printf("%d : \n",i);
-        scanf_s("%d",&i);
+        printf("*(array+ %d) = ",i);
+        scanf_s("%d",(array+i));
 
     }
 
 }
 
+void showdata(int *array){
 
+        for(int i=0;i<SIZE;i++){
+
+            printf("*(array + %d) = %d\n",i, *(array+i));
+
+        }
+
+}

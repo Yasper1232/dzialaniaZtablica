@@ -31,11 +31,24 @@ int input;
 
             case 1:
 
-                    dataenter();
+                    dataenter(array);
 
                 break;
 
+            case 2:
+
+                showdata(array);
+
+                break;
+
+            case 10:
+
+                exit(0);
+
+                break;
         }
+
+
 
 
 }        while(input);
